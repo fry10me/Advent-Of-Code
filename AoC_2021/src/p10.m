@@ -10,7 +10,6 @@ total = INCOMPLETE(incomplete,n);
 sprintf("PART 1: corrupt score: %.f",sum)
 sprintf("PART 2: incomplete score: %.f",total)
 
-
 function s = INCOMPLETE(d,n)
 scores = zeros(n,1);
 for i = 1:n
