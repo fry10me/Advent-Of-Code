@@ -1,0 +1,1 @@
+d = open("AoC_2015\data\p7_data.txt").read().splitlines() 

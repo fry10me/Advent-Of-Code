@@ -1,4 +1,3 @@
-
 with open('AoC_2015\data\p2_data.txt') as f:
     d = [ line.strip() for line in f ]
 
@@ -11,5 +10,5 @@ for i in range(len(d)):
     wpaper += 2*dim[0]*dim[1] + 2*dim[1]*dim[2] + 2*dim[2]*dim[0] + min([dim[0]*dim[1],dim[1]*dim[2],dim[2]*dim[0]])
     ribbon += dim[0]*dim[1]*dim[2] + dim[0]*2 + dim[1]*2
     
-print("PART1: WRAPPING PAPER", wpaper)
-print("PART1: RIBBON",ribbon)
+print("PART1:",wpaper)
+print("PART2:",ribbon)
