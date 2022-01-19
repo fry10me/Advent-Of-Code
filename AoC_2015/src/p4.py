@@ -7,10 +7,10 @@ while not found6:
     h = md5((d + str(n)).encode()).hexdigest()
     if not found5 and h[:5] == '00000':
         n5 = n
-        print("PART1:",n5)
+        print("PART 1:",n5)
         found5 = True
     if h[:6] == '000000':
         n6 = n
-        print("PART2:",n6)
+        print("PART :",n6)
         found6 = True
     n += 1

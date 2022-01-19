@@ -17,5 +17,5 @@ for instr in d:
         arr1[x1:x2+1:1,y1:y2+1:1] = 0
         arr2[x1:x2+1:1,y1:y2+1:1] -= 1
         arr2[arr2 < 0] = 0
-print("PART1:",sum(map(sum,arr1)))  
-print("PART2:",sum(map(sum,arr2)))  
+print("PART 1:",sum(map(sum,arr1)))  
+print("PART 2:",sum(map(sum,arr2)))  

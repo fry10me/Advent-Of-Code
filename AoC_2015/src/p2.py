@@ -10,5 +10,5 @@ for i in range(len(d)):
     wpaper += 2*dim[0]*dim[1] + 2*dim[1]*dim[2] + 2*dim[2]*dim[0] + min([dim[0]*dim[1],dim[1]*dim[2],dim[2]*dim[0]])
     ribbon += dim[0]*dim[1]*dim[2] + dim[0]*2 + dim[1]*2
     
-print("PART1:",wpaper)
-print("PART2:",ribbon)
+print("PART 1:",wpaper)
+print("PART 2:",ribbon)

@@ -28,8 +28,8 @@ for i in range(len(d)):
     else:
         housesBoth = MOVE(arr2,idx2,d[i],housesBoth)
 
-print("PART1:",housesSanta)
-print("PART2:",housesBoth)
+print("PART 1:",housesSanta)
+print("PART 2:",housesBoth)
 
 
 

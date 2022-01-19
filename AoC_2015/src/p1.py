@@ -11,5 +11,5 @@ for i  in range(len(d)):
         found = True
         basement = i+1
 
-print("PART1:", score)
-print("PART2:", basement)
+print("PART 1:", score)
+print("PART 2:", basement)
