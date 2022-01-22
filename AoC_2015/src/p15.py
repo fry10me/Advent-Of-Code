@@ -1,10 +1,9 @@
 import re
 import numpy as np
 d = open("AoC_2015\data\p15_data.txt").read().splitlines() 
-N = len(d)
 
 idx = 0
-arr = np.zeros((N,5), dtype=int)
+arr = np.zeros((len(d),5), dtype=int)
 for line in d:
     capacity, durability, flavor, texture, calories = map(int, re.findall('-?\d+', line))
     arr[idx,:] = [capacity, durability, flavor, texture, calories]
