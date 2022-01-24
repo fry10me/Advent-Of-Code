@@ -1,6 +1,5 @@
 import numpy as np
 from copy import deepcopy
-import time
 d = open('AoC_2015\data\p18_data.txt').read().splitlines()
 
 state = [[1 if x == '#' else 0 for x in group] for group in d]
